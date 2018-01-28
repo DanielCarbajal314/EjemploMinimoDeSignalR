@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="CMV_LOCAL3ModelStoreContainer" CdmEntityContainer="TaxiDB">
+    <FunctionImportMapping FunctionName="CMV_LOCAL3Model.Store.RankingDeVentasDeTaxis" FunctionImportName="RankingDeVentasDeTaxis">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="CMV_LOCAL3Model.RankingDeVentasDeTaxis_Result">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Detalle" ColumnName="Detalle" />
+          <ScalarProperty Name="Monto" ColumnName="Monto" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+  </EntityContainerMapping>
+</Mapping>
